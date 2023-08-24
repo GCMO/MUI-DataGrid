@@ -1,0 +1,20 @@
+{
+  "name": "code-test-user-admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "run-p dev:*",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "postinstall": "run-p install:*",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "ts-node": {
+    "swc": true
+  },
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ESNext",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noEmit": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*", "./@types/*"]
+    },
+    "typeRoots": ["./node_modules/@types", "./@types"],
+    "types": ["node"],
+    "skipLibCheck": true
+  }
+}
