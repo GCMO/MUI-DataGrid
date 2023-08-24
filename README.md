@@ -10,7 +10,7 @@ USER ADMIN with MUI <DATAGRID>
 
 # Introduction
 
-This is a simple CRUD application Excell styled for managing users. Developed with MUI <DataGrid> and basing MongoDB/Node/Express BackEnd (the server dir).
+This is a simple CRUD application Excell styled for managing users. Developed with MUI <DataGrid> and basic MongoDB/Node/Express BackEnd (the server dir).
 
 # Features:
 
